@@ -1,0 +1,21 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "reqHttpTriggerRouteParams",
+      "route": "HttpTriggerModelV3Node18/httpTriggerRouteParams/{param1}/{param2}",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/HttpTriggerRouteParams/index.js"
+}
